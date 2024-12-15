@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Petopia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo_icon.jpg" type="image/x-icon">
+</head>
+<body>
+
+
+<header>
+    <div id="logo">
+        <a href="index.html">
+            <img src="logo.jpg" alt="Logo" />
+        </a>
+    <nav>
+        <ul id="MenuItems">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="shop.html">Shop</a>
+              </li>
+            <li>
+              <a href="about.html">About Us</a>
+            </li>     
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>    
+          </ul>
+    </nav>
+</header>
+
+
+
+
+<section id="search-filters">
+    <h2>Filter Products</h2>
+    <div class="filters">
+        <input type="text" id="search-bar" placeholder="Search products..." aria-label="Search products" />
+        <select id="category-select" aria-label="Select product category">
+            <option value="all">All Categories</option>
+            <option value="pet-wear">Pet Wear</option>
+            <option value="pet-food">Pet Food</option>
+            <option value="pet-toys">Pet Toys</option>
+            <option value="pet-gear">Pet Gear</option>
+            <option value="pet-care">Pet Care Products</option>
+        </select>
+        <button id="filter-button" aria-label="Apply filters">Apply Filters</button>
+    </div>
+</section>
+
+
+<section id="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+        
+        <article class="product-card" data-category="pet-wear">
+            <div class="product-info">
+                <img src="clothes.jpg" alt="Pet Wear 1" class="product-image">
+                <p class="product-name">Pet Wear</p>
+                <p class="product-price">P150</p>
+                <div class="product-rating">★★★★☆</div>
+               <button class="buy-button">Buy Now</button>
+            </div>
+        </article>
+        <article class="product-card" data-category="pet-wear">
+            <div class="product-info">
+                <img src="hoodies.jpg" alt="Pet Wear 2" class="product-image">
+                <p class="product-name">Hoodies</p>
+                <p class="product-price">P200</p>
+                <div class="product-rating">★★★★☆</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </article>
+        <article class="product-card" data-category="pet-wear">
+            <div class="product-info">
+                <img src="shoes.jpg" alt="Pet Wear 3" class="product-image">
+                <p class="product-name">Paw Shoes</p>
+                <p class="product-price">P120</p>
+                <div class="product-rating">★★★★☆</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </article>
+
+        
+        <article class="product-card" data-category="pet-food">
+            <div class="product-info">
+                <img src="food.jpg" alt="Pet Food 1" class="product-image">
+                <p class="product-name">Interactive Snack Toy</p>
+                <p class="product-price">P85</p>
+                <div class="product-rating">★★★★☆</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </article>
+        <article class="product-card" data-category="pet-food">
+            <div class="product-info">
+                <img src="treats.jpg" alt="Pet Food 2" class="product-image">
+                <p class="product-name">Rodent Munchies</p>
+                <p class="product-price">P80</p>
+                <div class="product-rating">★★★★☆</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </article>
+        <article class="product-card" data-category="pet-food">
+            <div class="product-info">
+                <img src="bird food.jpg" alt="Pet Food 3" class="product-image">
+                <p class="product-name">Beak Bites</p>
+                <p class="product-price">P85</p>
+                <div class="product-rating">★★★★☆</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </article>
+
+        
+        <article class="product-card" data-category="pet-toys">
+            <div class="product-info">
+                <img src="bird toys.jpg" alt="Pet Toys 1" class="product-image">
+                <p class="product-name">15 Feathered Fun</p>
+                <p class="product-price">P240</p>
+                <div class="product-rating">★★★★☆</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </article>
+        <article class="product-card" data-category="pet-toys">
+            <div class="product-info">
+                <img src="toys.jpg" alt="Pet Toys 2" class="product-image">
+                <p class="product-name">Purr Play Gear</p>
+                <p class="product-price">P245</p>
+                <div class="product-rating">★★★★☆</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </article>
+        <article class="product-card" data-category="pet-toys">
+            <div class="product-info">
+                <img src="hamster toys.jpg" alt="Pet Toys 3" class="product-image">
+                <p class="product-name">Wooden Wonderland</p>
+                <p class="product-price">P150</p>
+                <div class="product-rating">★★★★☆</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </article>
+
+        
+        <article class="product-card" data-category="pet-gear">
+            <div class="product-info">
+                <img src="harnest.jpg" alt="Pet Gear 1" class="product-image">
+                <p class="product-name">Harness</p>
+                <p class="product-price">P255</p>
+                <div class="product-rating">★★★★☆</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </article>
+        <article class="product-card" data-category="pet-gear">
+            <div class="product-info">
+                <img src="collar.jpg" alt="Pet Gear 2" class="product-image">
+                <p class="product-name">Collar</p>
+                <p class="product-price">P160</p>
+                <div class="product-rating">★★★★☆</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </article>
+        <article class="product-card" data-category="pet-gear">
+            <div class="product-info">
+                <img src="Travel Backpack Dog Carrier.jpg" alt="Pet Gear 3" class="product-image">
+                <p class="product-name">Dog Travel Essentials </p>
+                <p class="product-price">P565</p>
+                <div class="product-rating">★★★★☆</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </article>
+
+        
+        <article class="product-card" data-category="pet-care">
+            <div class="product-info">
+                <img src="beds.jpg" alt="Pet Care 1" class="product-image">
+                <p class="product-name">Pet Bed</p>
+                <p class="product-price">P870</p>
+                <div class="product-rating">★★★★☆</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </article>
+        <article class="product-card" data-category="pet-care">
+            <div class="product-info">
+                <img src="brush.jpg" alt="Pet Care 2" class="product-image">
+                <p class="product-name">Brush</p>
+                <p class="product-price">P175</p>
+                <div class="product-rating">★★★★☆</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </article>
+        
+        <article class="product-card" data-category="pet-care">
+            <div class="product-info">
+                <img src="smart cat litter box.jpg" alt="Pet Care 3" class="product-image">
+                <p class="product-name">Smart Pet Litter Box</p>
+                <p class="product-price">P3500</p>
+                <div class="product-rating">★★★★☆</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </article>
+
+        <article class="product-card" data-category="pet-care">
+            <div class="product-info">
+                <img src="towel.jpg" alt="Pet Care 4" class="product-image">
+                <p class="product-name">Microfiber Pet Towel</p>
+                <p class="product-price">P50</p>
+                <div class="product-rating">★★★★☆</div>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </article>
+    </div>
+</section>
+
+<button id="cart-toggle" aria-label="Toggle Cart">🛒</button>
+
+
+<div id="cart-sidebar" class="collapsed">
+    <!-- Cart Header -->
+    <h2>Shopping Cart</h2>
+
+    <!-- Cart Items Section -->
+    <div id="cart-items">
+        <!-- Cart items will be dynamically added here -->
+        <p class="empty-cart-message">Your cart is empty.</p>
+    </div>
+
+    <!-- Total Section -->
+    <div id="cart-total">
+        <p>Total: <span id="total-price">P0</span></p>
+    </div>
+
+    <!-- Cart Actions -->
+    <div class="cart-actions">
+        <button id="clear-cart">Clear Cart</button>
+        <button id="buy-cart">Buy Now</button>
+    </div>
+</div>
+
+<!-- Call to Action Section -->
+<section id="cta">
+    <h2>Subscribe for Exclusive Deals</h2>
+    <p>Sign up for our newsletter and get the latest promotions directly in your inbox!</p>
+    <input type="email" placeholder="Enter your email address" aria-label="Email address" />
+    <button id="subscribe-button" aria-label="Subscribe to newsletter">Subscribe</button>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>    |
+                <li><a href="#">Terms of Service</a></li>    |
+                <li><a href="#">Returns & Exchanges</a></li>    |
+                <li><a href="#">Shipping Info</a></li>
+            </ul>
+        </div>
+        <div class="footer-socials">
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">Twitter</a>
+        </div>
+    </div>
+    <p>&copy; 2024 Pet Store. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
